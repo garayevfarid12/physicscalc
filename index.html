@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    
+    
+<div class="overall">
+
+    <input type="radio" id="hw1" name="age" value="1" onchange="radiochange1();" required>
+  <label for="hw1">Insert homework grades one by one</label><br>
+  <input type="radio" id="hw2" name="age" value="2" checked="checked" onchange="radiochange2()" required>
+  <label for="hw2">Insert overall homework grade</label><br>  
+
+  <div id="divhomework1">
+    <p class="text">Homework:&nbsp</p>
+    <input class="inputs" id="hwinput" type="number">
+  </div>
+
+  <div id="divhomework2">
+
+
+
+    <div class="homework2subdivs">
+        <div class="homework2div"><p class="homework2text">Homework 1</p>
+            <input class="homework2input" id="hwinput1" type="number"></div>
+    
+        <div class="homework2div"><p class="homework2text">Homework 2</p>
+            <input class="homework2input" id="hwinput2" type="number"></div>
+    
+        <div class="homework2div"><p class="homework2text">Homework 3</p>
+            <input class="homework2input" id="hwinput3" type="number"></div>
+            
+            <div class="homework2div"><p class="homework2text">Homework 4</p>
+                <input class="homework2input" id="hwinput4" type="number"></div>
+    </div>
+
+
+    <div class="homework2subdivs">
+        <div class="homework2div"><p class="homework2text">Homework 5</p>
+            <input class="homework2input" id="hwinput5" type="number"></div>
+    
+        <div class="homework2div"><p class="homework2text">Homework 6</p>
+            <input class="homework2input" id="hwinput6" type="number"></div>
+    
+        <div class="homework2div"><p class="homework2text">Homework 7</p>
+            <input class="homework2input" id="hwinput7" type="number"></div>
+            
+            <div class="homework2div"><p class="homework2text">Homework 8</p>
+                <input class="homework2input" id="hwinput8" type="number"></div>
+    </div>
+
+
+    <div class="homework2subdivs">
+        <div class="homework2div"><p class="homework2text">Homework 9</p>
+            <input class="homework2input" id="hwinput9" type="number"></div>
+    
+        <div class="homework2div"><p class="homework2text">Homework 10</p>
+            <input class="homework2input" id="hwinput10" type="number"></div>
+    
+        <div class="homework2div"><p class="homework2text">Homework 11</p>
+            <input class="homework2input" id="hwinput11" type="number"></div>
+            
+            <div class="homework2div"><p class="homework2text">Homework 12</p>
+                <input class="homework2input" id="hwinput12" type="number"></div>
+    </div>
+
+
+
+
+            
+  </div>
+    
+    <div class="divcontainers">
+        <p class="text">Exam 1:&nbsp</p>
+        <input class="inputs" id="exam1input" type="number">
+    </div>
+
+    <div class="divcontainers">
+        <p class="text">Exam 2:&nbsp</p>
+        <input class="inputs" id="exam2input" type="number">
+    </div>
+
+    <div class="divcontainers">
+        <p class="text">Exam 3:&nbsp</p>
+        <input class="inputs" id="exam3input" type="number">
+    </div>
+
+    <div class="divcontainers">
+        <p class="text">Final exam:&nbsp</p>
+        <input class="inputs" id="finalexaminput" type="number">
+    </div>
+<br>
+    <div class="divcontainers">
+        <button class="mybutton" onclick="calculate()"><big>Calculate</big></button>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button class="mybutton" onclick="clearInputs()"><big>Clear</big></button>
+    </div>
+</div>
+
+</body>
+</html>
