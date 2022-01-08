@@ -1,0 +1,135 @@
+.text{
+    font-size: large;
+}
+
+.homework2text{
+    font-size: small;
+    margin: 0px;
+}
+
+.divcontainers{
+    display: flex;
+    align-items: center;
+    
+}
+
+.overall{
+    display: inline-block;
+    
+}
+
+.inputs{
+    height: 25px;
+    width: 150px;
+}
+
+.homework2input{
+    height: 25px;
+    width: 60px;
+    margin: 0px;
+}
+
+.mybutton{
+    width: 90px;
+}
+
+p{
+    width: 100px;
+}
+
+#divhomework1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#divhomework2{
+    height: 0px;
+    visibility: hidden;
+    display: block;
+    align-items: center;
+}
+
+.homework2div{
+    display: inline-block;
+}
+
+
+.homework2subdivs{
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}.text{
+    font-size: large;
+}
+
+.homework2text{
+    font-size: small;
+    margin: 0px;
+}
+
+.divcontainers{
+    display: flex;
+    align-items: center;
+    
+}
+
+.overall{
+    display: inline-block;
+    
+}
+
+.inputs{
+    height: 25px;
+    width: 150px;
+}
+
+.homework2input{
+    height: 25px;
+    width: 60px;
+    margin: 0px;
+}
+
+.mybutton{
+    width: 90px;
+}
+
+p{
+    width: 100px;
+}
+
+#divhomework1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#divhomework2{
+    height: 0px;
+    visibility: hidden;
+    display: block;
+    align-items: center;
+}
+
+.homework2div{
+    display: inline-block;
+}
+
+
+.homework2subdivs{
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
